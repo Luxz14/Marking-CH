@@ -1,0 +1,172 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-img {
+    width: 640px;
+    height: 330px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin: 10px 10px 10px 25px;
+    padding: 10px;
+    background-color: slateblue;
+    color: black;
+    border-radius: 100px 100px 100px 100px;
+    border: none;
+}
+
+button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image {
+    flex-basis: calc(25% - 10px);
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.third-section_h3-div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 6px;
+    padding: 5px;
+}
+
+.h3-div h3 {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.third-section_p-div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 5px;
+}
+
+.third-section_p-div p:nth-child(1) {
+    max-width: 210px;
+}
+
+.third-section_p-div p:nth-child(2) {
+    max-width: 210px;
+}
+
+.third-section_p-div p:nth-child(3) {
+    max-width: 210px;
+}
+
+.container-loc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.ubi-frame {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.description {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.description p {
+    margin-left: -250px;
+}
+
+.container-footer {
+    background-color: rgb(134, 219, 247);
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-h3 {
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.footer-link i {
+    font-size: 25px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.footer-link i:hover {
+    color: white;
+}
