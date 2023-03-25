@@ -30,15 +30,16 @@ a {
 .nombre-empresa {
     font-size: 24px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .p-main {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 16px;
 }
 
 #contact-button {
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 10px;
     background-color: slateblue;
     color: black;
@@ -56,6 +57,7 @@ a {
     font-size: 24px;
     margin-bottom: 10px;
     margin-top: 15px;
+    font-weight: 700;
 }
 
 .gallery-ser {
@@ -135,6 +137,11 @@ p {
     margin-bottom: 20px;
 }
 
+.description-p {
+    margin-left: -500px;
+    margin-top: 150px;
+}
+
 .subtitulo-ser {
     text-align: center;
     font-style: italic;
@@ -147,13 +154,6 @@ p {
     text-align: center;
 }
 
-#titulo-precios {
-    text-align: center;
-    font-size: 40px;
-    margin: 10px;
-    padding: 10px;
-}
-
 .div-precios {
     border: 5px solid rgb(171, 221, 221);
     margin: 10px;
@@ -161,13 +161,6 @@ p {
     margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 40px;
-    padding: 10px;
-}
-
-#h1-form {
-    text-align: center;
-    font-size: 40px;
-    margin: 10px;
     padding: 10px;
 }
 
@@ -203,13 +196,6 @@ p {
 
 #button-input:hover {
     cursor: pointer;
-}
-
-#h1-about {
-    text-align: center;
-    font-size: 40px;
-    margin: 10px;
-    padding: 10px;
 }
 
 .ul-about {
@@ -248,4 +234,57 @@ footer p {
 
 .footer-link i:hover {
     color: white;
+}
+
+@media (max-width: 765px) {
+    .span-titulo {
+        display: none;
+    }
+    img {
+        overflow-x: hidden;
+    }
+    
+    #second-section {
+        display: none;
+    }
+
+    .gallery-ser {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .img-ser {
+        width: 250px;
+    }
+    
+    .p-ser {
+        font-size: 15px;
+    }
+    
+    #third-section {
+        display: none;
+    }
+
+    #fourth-section {
+        display: none;
+    }
+    #titulo-precios {
+        font-size: 30px;
+    }
+    
+    .container-precios {
+        display: grid;
+        gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .div-precios {
+        max-width: 300px;
+        border-radius: 30px;
+    }
+
+    .div-precios .h2-precios {
+        font-size: 20px;
+    }
 }
