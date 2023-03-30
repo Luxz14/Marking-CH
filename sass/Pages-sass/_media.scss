@@ -1,0 +1,146 @@
+@media (max-width: 765px) {
+    .span-titulo {
+        display: none;
+    }
+    img {
+        overflow-x: hidden;
+    }
+    
+    #second-section {
+        display: none;
+    }
+
+    .gallery-ser {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .img-ser {
+        width: 250px;
+    }
+    
+    .p-ser {
+        font-size: 15px;
+    }
+
+    #third-section {
+        display: none;
+    }
+
+    .img-p_tes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        .img-tes {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        .p-tes {
+            width: 77%;
+            margin-bottom: 20px;
+            margin-top: 70px;
+        }
+    }
+
+    #fourth-section {
+        display: none;
+    }
+    
+    .container-precios {
+        display: grid;
+        gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
+        .div-precios {
+            max-width: 300px;
+            border-radius: 30px;
+            .div-precios .h2-precios {
+                font-size: 20px;
+            }
+            .precios {
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 766px) and (max-width: 1024px) {
+    .span-titulo {
+        display: none;
+    }
+
+    .gallery-ser {
+        /*
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        */
+        display: grid;
+        gap: 20px;
+        grid-template-areas: 
+        'Analisis Web'
+        'Estrategias Redes';
+        .img-ser {
+            width: 250px;
+        }
+        .img-ser:nth-of-type(1){
+            grid-area: analisis;
+        }
+    
+        .img-ser:nth-of-type(2){
+            grid-area: Web;
+        }
+    
+        .img-ser:nth-of-type(3){
+            grid-area: Estrategias;
+        }
+    
+        .img-ser:nth-of-type(4){
+            grid-area: Redes;
+        }
+        .p-ser {
+            font-size: 15px;
+        }
+    }
+
+    .container-precios {
+        display: grid;
+        gap: 40px;
+        grid-template-columns: repeat(2, 2fr);
+        .div-precios {
+            border-radius: 30px;
+            .div-precios .h2-precios {
+                font-size: 20px;
+            }
+            .precios {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .img-p_tes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+        overflow-x: hidden;
+        .img-tes {
+            width: 50%;
+            margin-bottom: 20px;
+        }
+        .p-tes {
+            width: 77%;
+            margin-bottom: 20px;
+            margin-top: 70px;
+        }
+    }
+}

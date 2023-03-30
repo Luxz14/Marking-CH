@@ -1,0 +1,20 @@
+.container-precios {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .div-precios {
+        border: 5px solid rgb(171, 221, 221);
+        margin: 10px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding: 10px;
+        .precios {
+            font-weight: 700;
+        }
+    }
+}
+
+
+

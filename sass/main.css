@@ -1,0 +1,357 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.subtitulo-ser {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.gallery-ser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery-ser .img-p {
+  flex-basis: calc(25% - 10px);
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 5px;
+}
+.gallery-ser .img-p img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.gallery-ser .img-p p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.gallery-ser {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery-ser .img-p_tes {
+  flex-basis: calc(25% - 10px);
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.container-precios {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.container-precios .div-precios {
+  border: 5px solid rgb(171, 221, 221);
+  margin: 10px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding: 10px;
+}
+.container-precios .div-precios .precios {
+  font-weight: 700;
+}
+
+#form-contact {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#form-contact label {
+  display: block;
+  font-weight: 600;
+  margin: 15px;
+}
+
+.input-form {
+  margin: auto;
+  padding: 5px;
+  height: 40px;
+  width: 230px;
+}
+
+#mensaje-input {
+  width: 300px;
+  height: 200px;
+}
+
+#button-input {
+  background-color: rgb(112, 177, 217);
+  border-radius: 100px 100px 100px 100px;
+  border: none;
+  color: white;
+}
+
+#button-input:hover {
+  cursor: pointer;
+}
+
+.container-loc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.container-loc .ubi-frame {
+  width: 50%;
+  margin-bottom: 20px;
+}
+.container-loc .description {
+  width: 77%;
+  margin-bottom: 20px;
+  margin-top: 130px;
+}
+
+.ul-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ul-about .li-about {
+  list-style: circle;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+
+@media (max-width: 765px) {
+  .span-titulo {
+    display: none;
+  }
+  img {
+    overflow-x: hidden;
+  }
+  #second-section {
+    display: none;
+  }
+  .gallery-ser {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .img-ser {
+    width: 250px;
+  }
+  .p-ser {
+    font-size: 15px;
+  }
+  #third-section {
+    display: none;
+  }
+  .img-p_tes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .img-p_tes .img-tes {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .img-p_tes .p-tes {
+    width: 77%;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  #fourth-section {
+    display: none;
+  }
+  .container-precios {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container-precios .div-precios {
+    max-width: 300px;
+    border-radius: 30px;
+  }
+  .container-precios .div-precios .div-precios .h2-precios {
+    font-size: 20px;
+  }
+  .container-precios .div-precios .precios {
+    font-weight: 700;
+  }
+}
+@media (min-width: 766px) and (max-width: 1024px) {
+  .span-titulo {
+    display: none;
+  }
+  .gallery-ser {
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    */
+    display: grid;
+    gap: 20px;
+    grid-template-areas: "Analisis Web" "Estrategias Redes";
+  }
+  .gallery-ser .img-ser {
+    width: 250px;
+  }
+  .gallery-ser .img-ser:nth-of-type(1) {
+    grid-area: analisis;
+  }
+  .gallery-ser .img-ser:nth-of-type(2) {
+    grid-area: Web;
+  }
+  .gallery-ser .img-ser:nth-of-type(3) {
+    grid-area: Estrategias;
+  }
+  .gallery-ser .img-ser:nth-of-type(4) {
+    grid-area: Redes;
+  }
+  .gallery-ser .p-ser {
+    font-size: 15px;
+  }
+  .container-precios {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  .container-precios .div-precios {
+    border-radius: 30px;
+  }
+  .container-precios .div-precios .div-precios .h2-precios {
+    font-size: 20px;
+  }
+  .container-precios .div-precios .precios {
+    font-weight: 700;
+  }
+  .img-p_tes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .img-p_tes .img-tes {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .img-p_tes .p-tes {
+    width: 77%;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.container .nombre-empresa {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.container .p-main {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.container #contact-button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: slateblue;
+  color: black;
+  border-radius: 100px 100px 100px 100px;
+  border: none;
+}
+.container #contact-button:hover {
+  color: white;
+  cursor: pointer;
+}
+.container .main-img {
+  width: 640px;
+  height: 330px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: -20px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.third-section_h3-div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 6px;
+  padding: 5px;
+}
+
+.third-section_h3-div h3 {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.third-section_p-div {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 5px;
+}
+.third-section_p-div .third-section_p-div p:nth-child(1) {
+  max-width: 210px;
+}
+.third-section_p-div .third-section_p-div p:nth-child(2) {
+  max-width: 210px;
+}
+.third-section_p-div .third-section_p-div p:nth-child(3) {
+  max-width: 210px;
+}
+
+.container-footer {
+  background-color: rgb(134, 219, 247);
+  padding: 50px 40px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.container-footer .footer-h3 {
+  color: white;
+}
+.container-footer .footer-link i {
+  font-size: 25px;
+  margin: 2px;
+  padding: 2px;
+}
+.container-footer .footer-link i:hover {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

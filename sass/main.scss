@@ -1,0 +1,114 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './Pages-sass/servicios';
+@import './Pages-sass/testimonios';
+@import './Pages-sass/precios';
+@import './Pages-sass/contactanos';
+@import './Pages-sass/nosotros';
+@import './Pages-sass/media';
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    .nombre-empresa {
+        font-size: 24px;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+    .p-main {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    #contact-button {
+        margin-top: 15px;
+        padding: 10px;
+        background-color: slateblue;
+        color: black;
+        border-radius: 100px 100px 100px 100px;
+        border: none;
+    }
+    
+    #contact-button:hover {
+        color: white;
+        cursor: pointer;
+    }
+    .main-img {
+        width: 640px;
+        height: 330px;
+        object-fit: cover;
+        margin-right: -20px;
+    }
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.third-section_h3-div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 6px;
+    padding: 5px;
+}
+.third-section_h3-div h3 {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.third-section_p-div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 5px;
+    .third-section_p-div p:nth-child(1) {
+        max-width: 210px;
+    }
+    
+    .third-section_p-div p:nth-child(2) {
+        max-width: 210px;
+    }
+    
+    .third-section_p-div p:nth-child(3) {
+        max-width: 210px;
+    }
+}
+
+.container-footer {
+    background-color: rgb(134, 219, 247);
+    padding: 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    .footer-h3 {
+        color: white;
+    }
+    .footer-link i {
+        font-size: 25px;
+        margin: 2px;
+        padding: 2px;
+    }
+    
+    .footer-link i:hover {
+        color: white;
+    }
+}

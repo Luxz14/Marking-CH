@@ -1,0 +1,36 @@
+.container-loc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    .ubi-frame {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    
+    .description {
+        width: 77%;
+        margin-bottom: 20px;
+        margin-top: 130px;
+    }
+    
+}
+
+.ul-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .li-about {
+        list-style: circle;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+
+

@@ -1,0 +1,30 @@
+#form-contact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#form-contact label {
+    display: block;
+    font-weight: 600;
+    margin: 15px;
+}
+.input-form {
+    margin: auto;
+    padding: 5px;
+    height: 40px;
+    width: 230px;
+}
+#mensaje-input {
+    width: 300px;
+    height: 200px;
+}
+#button-input {
+    background-color: rgb(112, 177, 217);
+    border-radius: 100px 100px 100px 100px;
+    border: none;
+    color: white;
+}
+#button-input:hover {
+    cursor: pointer;
+}
+        
+    
