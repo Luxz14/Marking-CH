@@ -26,6 +26,11 @@
   width: 100%;
   height: auto;
   border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+.gallery-ser .img-p img:hover {
+  transform: scale(1.1);
 }
 .gallery-ser .img-p p {
   margin-top: 5px;
@@ -33,12 +38,7 @@
   color: #666;
 }
 
-.gallery-ser {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.gallery-ser .img-p_tes {
+.img-p_tes {
   flex-basis: calc(25% - 10px);
   margin-bottom: 10px;
   text-align: center;
@@ -144,10 +144,10 @@
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .img-ser {
+  .gallery-ser .img-p img {
     width: 250px;
   }
-  .p-ser {
+  .gallery-ser .img-p p {
     font-size: 15px;
   }
   #third-section {
@@ -205,22 +205,22 @@
     gap: 20px;
     grid-template-areas: "Analisis Web" "Estrategias Redes";
   }
-  .gallery-ser .img-ser {
+  .gallery-ser .img-p .img-ser {
     width: 250px;
   }
-  .gallery-ser .img-ser:nth-of-type(1) {
+  .gallery-ser .img-p .img-ser:nth-of-type(1) {
     grid-area: analisis;
   }
-  .gallery-ser .img-ser:nth-of-type(2) {
+  .gallery-ser .img-p .img-ser:nth-of-type(2) {
     grid-area: Web;
   }
-  .gallery-ser .img-ser:nth-of-type(3) {
+  .gallery-ser .img-p .img-ser:nth-of-type(3) {
     grid-area: Estrategias;
   }
-  .gallery-ser .img-ser:nth-of-type(4) {
+  .gallery-ser .img-p .img-ser:nth-of-type(4) {
     grid-area: Redes;
   }
-  .gallery-ser .p-ser {
+  .gallery-ser .img-p .p-ser {
     font-size: 15px;
   }
   .container-precios {
@@ -289,6 +289,7 @@ a {
   border: none;
 }
 .container #contact-button:hover {
+  transition: all 450ms;
   color: white;
   cursor: pointer;
 }
@@ -327,13 +328,13 @@ a {
   text-align: center;
   margin: 5px;
 }
-.third-section_p-div .third-section_p-div p:nth-child(1) {
+.third-section_p-div p:nth-child(1) {
   max-width: 210px;
 }
-.third-section_p-div .third-section_p-div p:nth-child(2) {
+.third-section_p-div p:nth-child(2) {
   max-width: 210px;
 }
-.third-section_p-div .third-section_p-div p:nth-child(3) {
+.third-section_p-div p:nth-child(3) {
   max-width: 210px;
 }
 
@@ -353,5 +354,6 @@ a {
   padding: 2px;
 }
 .container-footer .footer-link i:hover {
+  transition: all 450ms;
   color: white;
 }/*# sourceMappingURL=main.css.map */

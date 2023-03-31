@@ -17,6 +17,12 @@
             width: 100%;
             height: auto;
             border-radius: 5px;
+            cursor: pointer;
+            transition: all 300ms;
+        }
+
+        img:hover {
+            transform: scale(1.10);
         }
         
         p {

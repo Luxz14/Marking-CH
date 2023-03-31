@@ -44,6 +44,7 @@ a {
     }
     
     #contact-button:hover {
+        transition: all 450ms;
         color: white;
         cursor: pointer;
     }
@@ -80,15 +81,15 @@ a {
     justify-content: space-between;
     text-align: center;
     margin: 5px;
-    .third-section_p-div p:nth-child(1) {
+    p:nth-child(1) {
         max-width: 210px;
     }
     
-    .third-section_p-div p:nth-child(2) {
+    p:nth-child(2) {
         max-width: 210px;
     }
     
-    .third-section_p-div p:nth-child(3) {
+    p:nth-child(3) {
         max-width: 210px;
     }
 }
@@ -109,6 +110,7 @@ a {
     }
     
     .footer-link i:hover {
+        transition: all 450ms;
         color: white;
     }
 }

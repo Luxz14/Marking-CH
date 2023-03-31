@@ -14,14 +14,15 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-    }
-
-    .img-ser {
-        width: 250px;
-    }
-    
-    .p-ser {
-        font-size: 15px;
+        .img-p {
+            img {
+                width: 250px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+        
     }
 
     #third-section {
@@ -86,26 +87,28 @@
         grid-template-areas: 
         'Analisis Web'
         'Estrategias Redes';
-        .img-ser {
-            width: 250px;
-        }
-        .img-ser:nth-of-type(1){
-            grid-area: analisis;
-        }
-    
-        .img-ser:nth-of-type(2){
-            grid-area: Web;
-        }
-    
-        .img-ser:nth-of-type(3){
-            grid-area: Estrategias;
-        }
-    
-        .img-ser:nth-of-type(4){
-            grid-area: Redes;
-        }
-        .p-ser {
-            font-size: 15px;
+        .img-p {
+            .img-ser {
+                width: 250px;
+            }
+            .img-ser:nth-of-type(1){
+                grid-area: analisis;
+            }
+        
+            .img-ser:nth-of-type(2){
+                grid-area: Web;
+            }
+        
+            .img-ser:nth-of-type(3){
+                grid-area: Estrategias;
+            }
+        
+            .img-ser:nth-of-type(4){
+                grid-area: Redes;
+            }
+            .p-ser {
+                font-size: 15px;
+            }
         }
     }
 
