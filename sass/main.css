@@ -175,14 +175,17 @@
   #fourth-section {
     display: none;
   }
+  iframe {
+    width: 100%;
+  }
   .container-precios {
     display: grid;
-    gap: 40px;
+    gap: 25px;
     grid-template-columns: repeat(2, 1fr);
   }
   .container-precios .div-precios {
-    max-width: 300px;
     border-radius: 30px;
+    border-width: 100%;
   }
   .container-precios .div-precios .div-precios .h2-precios {
     font-size: 20px;
