@@ -31,21 +31,19 @@
 
     .img-p_tes {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
         width: 100%;
         height: auto;
-        padding: 10px;
+        padding: 5px;
         box-sizing: border-box;
         overflow-x: hidden;
         .img-tes {
-            width: 50%;
-            margin-bottom: 20px;
+            width: 100%;
+            //margin-bottom: -40px;
         }
         .p-tes {
-            width: 77%;
-            margin-bottom: 20px;
-            margin-top: 70px;
+            width: 100%;
+            margin-bottom: 30px;
         }
     }
 
@@ -136,21 +134,19 @@
 
     .img-p_tes {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
         width: 100%;
         height: auto;
         padding: 10px;
         box-sizing: border-box;
         overflow-x: hidden;
         .img-tes {
-            width: 50%;
-            margin-bottom: 20px;
+            width: 100%;
+            //margin-bottom: 20px;
         }
         .p-tes {
-            width: 77%;
+            width: 100%;
             margin-bottom: 20px;
-            margin-top: 70px;
         }
     }
 }
