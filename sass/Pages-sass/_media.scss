@@ -58,8 +58,8 @@
 
     .container-precios {
         display: grid;
-        gap: 25px;
-        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        grid-template-columns: repeat(1, 2fr);
         .div-precios {
             //max-width: 300px;
             border-radius: 30px;
@@ -74,6 +74,9 @@
     }
 }
 
+.input-form {
+    margin: 6px;
+}
 
 @media (min-width: 766px) and (max-width: 1024px) {
     .span-titulo {
