@@ -44,6 +44,10 @@
   text-align: center;
   margin: 5px;
 }
+.img-p_tes .img-tes {
+  width: 430px;
+  border-radius: 5px;
+}
 
 .container-precios {
   display: flex;
